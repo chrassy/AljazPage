@@ -1,0 +1,119 @@
+/*General*/
+html, body {
+	font: 100% Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #d6d6c2;
+	color: rgb(76, 67, 65);
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*links */
+
+a {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+	color: #0051FF;
+}
+
+a:visited {
+	color: #0051FF;
+}
+
+a:hover {
+	color: rgb(76, 67, 65);
+}
+
+a:active {
+	color: #0051FF;
+}
+
+/*Header*/
+.header {
+	padding: 10px;
+	padding-left: 2em;
+	background-color: #FD9926;
+}
+
+/*Foter*/
+.footer {
+	position: absolute;
+	bottom: 0;
+	overflow: auto;
+	background-color: #FD9926;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+}
+footer section {
+	text-align: right;
+	padding-right: 3em;
+	padding-bottom: 0;
+}
+.facebook {
+	padding-bottom: 10px;
+}
+/*Navigation bar*/
+.mainNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.mainNav ul li {
+	float: left;
+	border: solid 1px;
+	margin: 0;
+	background-color: #FD9926;
+}
+.mainNav ul li a {
+	display: block;
+	color: rgb(76, 67, 65);
+	text-align: center;
+	padding: .2em 2em;
+	margin: 0;
+}
+.mainNav ul li a:hover {
+	color: #FD9926;
+	background-color: rgb(76, 67, 65);
+}
+.mainNav ul li a:active  {
+	color: #FD9926;
+	background-color: rgb(76, 67, 65);
+}
+
+/* specificno*/
+article {
+	margin: 2%;
+}
+
+#omeni, #karate {
+	width: 80%;
+	text-align: justify;
+}
+#dobrodoslica {
+	font-size: 1.5em;
+	text-align: justify;
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+#dobrodoslica h2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#dobrodoslica span {
+	margin-bottom: 10px;
+}
+#drzavnoPrvenstvoVideo {
+	margin-left: 40%;
+}
+#map {
+	margin: 10px;
+	margin-left: 35%;
+}
+
